@@ -1,0 +1,16 @@
+{
+  "name": "WikiSearchApp",
+  "version": "1.0.0",
+  "description": "a wiki search bar appgit ",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d site"
+  },
+  "keywords": [],
+  "author": "Marcelo Mariduena",
+  "homepage": "https://MarceloMariduena.github.io/WikiSearchBar",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

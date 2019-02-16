@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Lato;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2vw 2.5vw;
+    font-size: 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: lightgray;
+}
+  
+  
+/**************  ID's  ****************/
+  
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+  
+#homeButton {
+    float: left;
+}
+  
+#contactButton, #searchButton, #resultsButton {
+    float: right;
+}
+  
+#coolBackground {
+    background: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); 
+    background-size: cover; 
+    height: 70vw;
+}
+  
+#blackBox {
+    background-color: black; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 80%; 
+    border-radius: 2vw; 
+    color: white;
+    opacity: .9;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 10vw;
+}
+  
+#searchTerm {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 5%;
+    border-radius: 0.5vw;
+}
+  
+#search {
+    width: 20vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 40%;
+    background-color: gray;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+  
+#search:hover {
+    background-color: #4CAF50;
+}
+  
+#results {
+    background-color: black; 
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 80%; 
+    margin-top: 5vw; 
+    border-radius: 2vw; 
+    color: white; 
+    margin-bottom: 3vw; 
+    opacity: .9;
+}
+  
+#selfPortrait {
+    margin: 3vw;
+}
+  
+#informationAboutMe {
+    margin: 3vw;
+}
+  
+#output {
+    font-size: 16px;
+}
+  
+#contact {
+    position: relative;
+    background-color: white;
+}
+  
+#footer {
+    padding: 6vw;
+    background-color: grey;
+    text-align: center;
+}
+  
+#footerName {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+  
+  
+  
+/**************** CLASSES *********************/
+  
+.textCenter {
+    text-align: center;
+}
+  
+[class*="col-"] {
+    float: left;
+}
+  
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }  
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+  
+* {
+    box-sizing: border-box;
+}
