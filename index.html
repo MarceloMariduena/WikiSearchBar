@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Wikki Lookup</title>
+    </head>
+
+    <body>
+
+    <!-- Navbar (sit on top) -->
+    <section id="navbar">
+        <div>
+            <li id="homeButton"><a href="#coolBackground"> Marcelo's Wiki App</a></li>
+            <li id="contactButton"><a href="#contact"> Contact</a></li>
+            <li id="resultsButton"><a href="#results"> Results</a></li>
+            <li id="searchButton"><a href="#coolBackground"> Search</a></li>
+        </div>
+    </section>
+ 
+      
+      
+    <!-- Header with Background Picture and Wikki Search Bar-->
+    <section id="coolBackground">
+        <!-- Search Bar -->
+        <div id="blackBox">
+            <h1 class="textCenter"> Search Wikipedia: </h1>
+            <input id="searchTerm">
+        
+            <!-- Search Button -->
+            <button id="search" type="button">
+                <h3> Search </h3>
+            </button>
+        </div>
+        
+    </section>
+
+      
+      
+    <!-- Results Page -->
+    <div id="resultsPage">
+        <div id="results">
+            <br/>
+            <h1> Search Results: </h1>
+            <h1 id="output"></h1>
+            <br/>
+        </div>
+    </div>
+
+      
+      
+    <!-- About Section -->
+    <section id="contact" class="row">
+        
+        <!-- Photo -->
+        <img id="selfPortrait" class="col-5" src="https://image.ibb.co/i7HGvd/20180421_135707.jpg" alt="Table Setting">
+        
+        <!-- Information About Me -->
+        <div id="informationAboutMe" class="col-5">
+            <h1> About Me:</h1>
+            <p> Full-Stack Web Developer, Masculine Presenting Transgendered Lesbian</p><br>
+            <h3> Languages: </h3>
+            <p> HTML, CSS, JavaScript, PHP, SQL, etc</p>
+        </div>  
+        
+    </section>
+      
+      
+    
+    <!-- Footer -->
+    <footer id="footer"> 
+        <p>Coded by <a id="footerName" href="https://github.com/marcelomariduena" title="gitHub" target="_blank">Marcelo Mariduena</a></p>
+    </footer>
+
+
+    <script type="text/JavaScript" src="main.js"></script>
+    </body>
+
+</html>
